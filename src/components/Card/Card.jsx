@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './Card.module.css';
 import { CurrencyIcon, Counter } from '@ya.praktikum/react-developer-burger-ui-components'
 import Modal from '../Modal/Modal';
-import IngredientDetails from '../Ingredient-Details/Ingredient-Details';
+import IngredientDetails from '../Ingredient-Details/IngredientDetails';
 import PropTypes from "prop-types";
 
 Card.propTypes = {

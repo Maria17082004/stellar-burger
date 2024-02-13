@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './Burger-Constructor.module.css';
 import {Button, DragIcon, ConstructorElement, CurrencyIcon} from '@ya.praktikum/react-developer-burger-ui-components'
 import Modal from '../Modal/Modal';
-import OrderDetails from '../Order-Details/Order-Details';
+import OrderDetails from '../Order-Details/OrderDetails';
 import PropTypes from "prop-types";
 
 BurgerConstructor.propTypes = {
@@ -19,42 +19,42 @@ function BurgerConstructor({orderPrice, yourBurger}) {
             <div className={styles.buntop}>
                 { yourBurger.map((ingredient) => {
                     if (ingredient.type === 'bun') {
-                        return <ConstructorElement
+                        return (<ConstructorElement
                         key={ingredient._id}
                         type="top"
                         isLocked={true}
                         text={ingredient.name + ' (верх)'}
                         price={ingredient.price}
                         thumbnail={ingredient.image}
-                    />
+                    />)
                     }
                 })}
             </div>
             <div className={styles.mainingrs}>
             { yourBurger.map((ingredient) => {
                     if (ingredient.type !== 'bun') {
-                        return <div className={styles.wrapper} key={ingredient._id}>
+                        return (<div className={styles.wrapper} key={ingredient._id}>
                         <DragIcon type="primary" />
                         <ConstructorElement className={styles.info}
                             text={ingredient.name}
                             price={ingredient.price}
                             thumbnail={ingredient.image}
                         />
-                    </div>
+                    </div>)
                     }
                 })}
             </div>
             <div className={styles.bunbottom}>
             { yourBurger.map((ingredient) => {
                     if (ingredient.type === 'bun') {
-                        return <ConstructorElement
+                        return (<ConstructorElement
                         key={ingredient._id}
                         type="bottom"
                         isLocked={true}
                         text={ingredient.name + ' (низ)'}
                         price={ingredient.price}
                         thumbnail={ingredient.image}
-                    />
+                    />)
                     }
                 })}
             </div>

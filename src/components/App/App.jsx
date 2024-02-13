@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import styles from './App.module.css';
-import AppHeader from '../App-Header/App-Header';
-import BurgerIngredients from '../Burger-Ingredients/Burger-Ingredients';
-import BurgerConstructor from '../Burger-Constructor/Burger-Constructor';
+import AppHeader from '../App-Header/AppHeader';
+import BurgerIngredients from '../Burger-Ingredients/BurgerIngredients';
+import BurgerConstructor from '../Burger-Constructor/BurgerConstructor';
 
 const url = 'https://norma.nomoreparties.space/api/ingredients';
 
@@ -16,14 +16,14 @@ function App() {
         setOrderPrice((prev) => prev + ingredient.price)
     }
 
-    const startIngredients = useCallback(async () => {
+    const getIngredients = async () => {
         try {
-            let response = await fetch(url);
+            const response = await fetch(url);
             if (!response.ok) {
                 throw new Error('Error during the loading data');
             }
 
-            let data = (await response.json()).data;
+            const data = (await response.json()).data;
             setIngredients(prev => {
                 addIngredient(data[0]);
                 addIngredient(data[8]);
@@ -35,10 +35,10 @@ function App() {
         } catch (err) {
             console.log(err.message);
         }
-    }, [])
+    }
 
     useEffect(() => {
-        startIngredients();
+        getIngredients();
     }, []);
 
     return (

@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7506a3b4-762d-434d-bb34-02169774d3a5" name="Changes" comment="" />
+    <list default="true" id="7506a3b4-762d-434d-bb34-02169774d3a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App-Header/App-Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App-Header/AppHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger-Constructor/Burger-Constructor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger-Constructor/BurgerConstructor.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger-Ingredients/Burger-Ingredients.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger-Ingredients/BurgerIngredients.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ingredient-Details/Ingredient-Details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ingredient-Details/IngredientDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal-Overlay/Modal-Overlay.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal-Overlay/ModalOverlay.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Order-Details/Order-Details.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Order-Details/OrderDetails.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +44,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\mokee\\Desktop\\react-burger_masha\\react-burger_masha\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707626828771</updated>
-      <workItem from="1707626829935" duration="357000" />
+      <workItem from="1707626829935" duration="4080000" />
     </task>
     <servers />
   </component>
