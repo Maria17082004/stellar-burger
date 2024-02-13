@@ -1,0 +1,35 @@
+.appheader{
+    composes: p-4 from global;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navconstuctor {
+    composes: p-5 text text_type_main-default from global;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.navorders, .navprofile {
+    composes: text_color_inactive from global;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.navbtns {
+    display: flex;
+    flex-direction: row;
+    row-gap: 8px;
+}
+
+.buttonfont {
+    composes: ml-2 from global;
+}
+
+

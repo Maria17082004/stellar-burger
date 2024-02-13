@@ -1,0 +1,49 @@
+.constructorelement {
+    composes: pt-25 pl-4 from global;
+    width: 600px;
+    max-height: 912px;
+    display: 'flex'; 
+    flex-direction: 'column';
+    gap: 10px;
+}
+
+.mainingrs{
+    composes: custom-scroll from global;
+    max-height: 470px;
+    list-style: none outside;
+    overflow-y: scroll;
+}
+
+.wrapper {
+    composes: mt-4 from global;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.buntop {
+    margin: 0;
+    padding-left: 48px;
+}
+
+.bunbottom {
+    composes: mt-4 mb-10 from global;
+    padding-left: 48px;
+}
+
+.price {
+    composes: text text_type_digits-medium mr-2 from global;
+}
+
+.info {
+    composes: ml-6 from global;
+}
+
+.bill {
+    composes: mr-4 mt-10 from global;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}

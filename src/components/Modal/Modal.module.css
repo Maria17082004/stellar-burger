@@ -1,0 +1,21 @@
+.modal {
+    composes: pt-10 pl-10 pr-10 pb-15 from global;    width: 720px;
+    border-radius: 40px;
+    background: rgba(19, 19, 22, 1);
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modalhead {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    composes: text text_type_main-large from global;
+}
